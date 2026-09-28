@@ -1,29 +1,10 @@
-GMS TOOLKIT - DEPLOYMENT
+GMS TOOLKIT — DEPLOYMENT
 
-Files included:
-- index.html (Toolkit landing page)
-- sign-pdf.html
-- merge-pdf.html
-- reduce-pdf.html
-- photo-to-pdf.html
-- qr-code.html
-- resize-image.html
-- common.css
+Free browser-based tools from Get Melbourne Sorted.
 
-Recommended deployment:
-1. Host this folder as a small static site (Cloudflare Pages, Netlify, GitHub Pages, or similar).
-2. Use a subdomain such as tools.getmelbournesorted.com.au.
-3. Link to it from the Squarespace navigation as “Toolkit”.
-4. Before launch, test each tool on desktop, iPhone/iPad and Android.
-5. Keep the privacy wording only while the code remains browser-side and no analytics/session-replay product captures file contents or canvas data.
-6. The PDF signer creates a visible electronic signature, not a certificate-based cryptographic digital signature.
-7. The Reduce PDF tool flattens pages to images and can remove searchable text/forms/links. It should be described as a convenience tool, not archival compression.
+PRIVACY DESIGN
+Selected file contents are processed in the visitor's browser. The application code does not upload selected file contents to Get Melbourne Sorted or store copies on a GMS server. Finished files are downloaded through the visitor's browser to the device/location selected by that browser.
 
-Suggested Squarespace Toolkit page SEO title:
-Free Online Tools | PDF & Image Help | GMS Toolkit
+IMPORTANT: No website can guarantee that a data breach or access by the wrong person can never occur. Users should use a trusted/private device, keep their device secure, and check their browser download location when handling sensitive documents.
 
-Suggested meta description:
-Free, simple online tools from Get Melbourne Sorted. Sign or merge PDFs, turn photos into PDFs, make QR codes and resize images without creating an account.
-
-Suggested subdomain:
-tools.getmelbournesorted.com.au
+Third-party JavaScript libraries are loaded to the browser from established CDNs. Selected document contents are not intentionally transmitted to those CDNs by this application code.
